@@ -1,0 +1,249 @@
+{
+  "SchemaVersion": 4,
+  "GeneratedAt": "2026-04-11T22:10:00",
+  "LogPath": "logs/driver-scan-huawei-sample.log",
+  "AutoOpenSupport": false,
+  "AutoOpenCatalog": false,
+  "IsPreflight": false,
+  "Preflight": {
+    "IsAdministrator": true,
+    "CanAccessCim": true,
+    "CanWriteReportDirectory": true,
+    "MainScriptExists": true,
+    "GuiScriptExists": true,
+    "ScriptsDirectoryExists": true,
+    "ReportDirectory": "reports",
+    "ScriptsDirectory": "scripts",
+    "ReportDirectoryMessage": "Report directory is writable.",
+    "CimMessage": "CIM access is available.",
+    "Message": "Ready to run full scan."
+  },
+  "ComputerProfile": {
+    "Manufacturer": "Huawei / HONOR",
+    "Model": "MateBook X Pro",
+    "SystemFamily": "Notebook",
+    "BIOSVersion": "1.10",
+    "SerialNumber": "HUAWEI123",
+    "BoardProduct": "MACH-WX9",
+    "OperatingSystem": "Microsoft Windows 11 Pro",
+    "OSArchitecture": "64-bit",
+    "DriverTargetOS": "Windows 11 64-bit",
+    "ManufacturerIds": {
+      "ServiceTag": "",
+      "MTM": "",
+      "ProductNumber": "",
+      "SystemSKU": "MACH-WX9",
+      "ProductVersion": "MateBook X Pro"
+    }
+  },
+  "SupportResources": [
+    {
+      "Label": "Huawei PC support",
+      "Url": "https://consumer.huawei.com/en/support/laptops/",
+      "Kind": "support"
+    }
+  ],
+  "PrimarySupportLink": {
+    "Label": "Huawei PC support",
+    "Url": "https://consumer.huawei.com/en/support/laptops/",
+    "Kind": "support"
+  },
+  "Summary": {
+    "ProblemCount": 1,
+    "TopPriority": {
+      "Name": "PCI Device",
+      "InferredName": "Intel Serial IO I2C Host Controller",
+      "PNPClass": "System",
+      "Category": "칩셋/시스템",
+      "Manufacturer": "Huawei / HONOR",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_8086&DEV_9D60",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_8086&DEV_9D60&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_8086&DEV_9D60&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "8086",
+        "DeviceId": "9D60",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "PCI Device ID 9D60",
+      "DeviceInferenceSource": "Matched PCI Serial IO pattern",
+      "PriorityScore": 86,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Chipset-related system devices should be restored early.",
+      "NextAction": "Install the chipset or Serial IO package first.",
+      "ProblemGroup": "칩셋/시스템 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Intel Serial IO Driver",
+          "Priority": 1,
+          "Query": "Intel Serial IO Driver MateBook X Pro"
+        },
+        {
+          "Name": "Chipset Driver",
+          "Priority": 2,
+          "Query": "Intel Chipset Driver MateBook X Pro"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_8086%26DEV_9D60",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the Huawei support page first",
+          "Detail": "For notebook OEM devices, the OEM support page should be preferred before generic drivers.",
+          "Links": [
+            {
+              "Label": "Huawei PC support",
+              "Url": "https://consumer.huawei.com/en/support/laptops/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "TopProblems": [],
+    "ProblemGroups": [],
+    "InstallOrder": [
+      "칩셋/시스템"
+    ],
+    "BeginnerTips": [
+      "Install chipset-related devices before secondary utilities."
+    ],
+    "HealthyDevices": 10
+  },
+  "AllDevices": [
+    {
+      "Name": "PCI Device",
+      "InferredName": "Intel Serial IO I2C Host Controller",
+      "PNPClass": "System",
+      "Category": "칩셋/시스템",
+      "Manufacturer": "Huawei / HONOR",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_8086&DEV_9D60",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_8086&DEV_9D60&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_8086&DEV_9D60&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "8086",
+        "DeviceId": "9D60",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "PCI Device ID 9D60",
+      "DeviceInferenceSource": "Matched PCI Serial IO pattern",
+      "PriorityScore": 86,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Chipset-related system devices should be restored early.",
+      "NextAction": "Install the chipset or Serial IO package first.",
+      "ProblemGroup": "칩셋/시스템 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Intel Serial IO Driver",
+          "Priority": 1,
+          "Query": "Intel Serial IO Driver MateBook X Pro"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_8086%26DEV_9D60",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the Huawei support page first",
+          "Detail": "For notebook OEM devices, the OEM support page should be preferred before generic drivers.",
+          "Links": [
+            {
+              "Label": "Huawei PC support",
+              "Url": "https://consumer.huawei.com/en/support/laptops/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ProblemDevices": [
+    {
+      "Name": "PCI Device",
+      "InferredName": "Intel Serial IO I2C Host Controller",
+      "PNPClass": "System",
+      "Category": "칩셋/시스템",
+      "Manufacturer": "Huawei / HONOR",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_8086&DEV_9D60",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_8086&DEV_9D60&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_8086&DEV_9D60&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "8086",
+        "DeviceId": "9D60",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "PCI Device ID 9D60",
+      "DeviceInferenceSource": "Matched PCI Serial IO pattern",
+      "PriorityScore": 86,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Chipset-related system devices should be restored early.",
+      "NextAction": "Install the chipset or Serial IO package first.",
+      "ProblemGroup": "칩셋/시스템 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Intel Serial IO Driver",
+          "Priority": 1,
+          "Query": "Intel Serial IO Driver MateBook X Pro"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_8086%26DEV_9D60",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the Huawei support page first",
+          "Detail": "For notebook OEM devices, the OEM support page should be preferred before generic drivers.",
+          "Links": [
+            {
+              "Label": "Huawei PC support",
+              "Url": "https://consumer.huawei.com/en/support/laptops/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

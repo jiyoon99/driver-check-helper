@@ -1,0 +1,13 @@
+장치 이름: Unknown device
+추정 장치명: Bluetooth Device
+장치 묶음: Network Group
+장치 분류: Bluetooth
+장치 클래스: Bluetooth
+보고된 제조사: Intel
+추정 칩셋 제조사: Intel
+상태: Error
+오류 코드: 28
+우선순위: High / 83
+우선 이유: Connectivity is blocked.
+칩셋 추정 근거: USB Vendor ID 8087
+장치 추정 근거: Device name contained Bluetooth

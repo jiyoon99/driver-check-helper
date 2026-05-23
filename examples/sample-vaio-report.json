@@ -1,0 +1,244 @@
+{
+  "SchemaVersion": 4,
+  "GeneratedAt": "2026-04-11T22:35:00",
+  "LogPath": "logs/driver-scan-vaio-sample.log",
+  "AutoOpenSupport": false,
+  "AutoOpenCatalog": false,
+  "IsPreflight": false,
+  "Preflight": {
+    "IsAdministrator": true,
+    "CanAccessCim": true,
+    "CanWriteReportDirectory": true,
+    "MainScriptExists": true,
+    "GuiScriptExists": true,
+    "ScriptsDirectoryExists": true,
+    "ReportDirectory": "reports",
+    "ScriptsDirectory": "scripts",
+    "ReportDirectoryMessage": "Report directory is writable.",
+    "CimMessage": "CIM access is available.",
+    "Message": "Ready to run full scan."
+  },
+  "ComputerProfile": {
+    "Manufacturer": "VAIO",
+    "Model": "VAIO SX14",
+    "SystemFamily": "Notebook",
+    "BIOSVersion": "R0200Q3",
+    "SerialNumber": "VAIO123",
+    "BoardProduct": "VJS144",
+    "OperatingSystem": "Microsoft Windows 11 Pro",
+    "OSArchitecture": "64-bit",
+    "DriverTargetOS": "Windows 11 64-bit",
+    "ManufacturerIds": {
+      "ServiceTag": "",
+      "MTM": "",
+      "ProductNumber": "",
+      "SystemSKU": "VJS144",
+      "ProductVersion": "VAIO SX14"
+    }
+  },
+  "SupportResources": [
+    {
+      "Label": "VAIO 지원 페이지",
+      "Url": "https://us.vaio.com/pages/support",
+      "Kind": "support"
+    }
+  ],
+  "PrimarySupportLink": {
+    "Label": "VAIO 지원 페이지",
+    "Url": "https://us.vaio.com/pages/support",
+    "Kind": "support"
+  },
+  "Summary": {
+    "ProblemCount": 1,
+    "TopPriority": {
+      "Name": "Unknown Device",
+      "InferredName": "Bluetooth Device",
+      "PNPClass": "Bluetooth",
+      "Category": "블루투스",
+      "Manufacturer": "VAIO",
+      "Service": "",
+      "DeviceID": "USB\\VID_8087&PID_0A2B",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "USB\\VID_8087&PID_0A2B"
+      ],
+      "PrimaryHardwareId": "USB\\VID_8087&PID_0A2B",
+      "IdAnalysis": {
+        "BusType": "USB",
+        "VendorId": "8087",
+        "DeviceId": "0A2B",
+        "SubsystemId": "",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "USB Device ID 0A2B",
+      "DeviceInferenceSource": "Matched Bluetooth USB pattern",
+      "PriorityScore": 78,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Wireless packages often include Bluetooth support on notebooks.",
+      "NextAction": "Check VAIO support, then compare Intel Bluetooth packages.",
+      "ProblemGroup": "네트워크 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Bluetooth Driver",
+          "Priority": 1,
+          "Query": "VAIO SX14 Bluetooth Driver"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=USB%5CVID_8087%26PID_0A2B",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the VAIO support page first",
+          "Detail": "Notebook wireless packages are often bundled by the OEM.",
+          "Links": [
+            {
+              "Label": "VAIO 지원 페이지",
+              "Url": "https://us.vaio.com/pages/support",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "TopProblems": [],
+    "ProblemGroups": [],
+    "InstallOrder": [
+      "블루투스"
+    ],
+    "BeginnerTips": [
+      "Bluetooth and Wi-Fi packages are often tied together on thin notebooks."
+    ],
+    "HealthyDevices": 12
+  },
+  "AllDevices": [
+    {
+      "Name": "Unknown Device",
+      "InferredName": "Bluetooth Device",
+      "PNPClass": "Bluetooth",
+      "Category": "블루투스",
+      "Manufacturer": "VAIO",
+      "Service": "",
+      "DeviceID": "USB\\VID_8087&PID_0A2B",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "USB\\VID_8087&PID_0A2B"
+      ],
+      "PrimaryHardwareId": "USB\\VID_8087&PID_0A2B",
+      "IdAnalysis": {
+        "BusType": "USB",
+        "VendorId": "8087",
+        "DeviceId": "0A2B",
+        "SubsystemId": "",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "USB Device ID 0A2B",
+      "DeviceInferenceSource": "Matched Bluetooth USB pattern",
+      "PriorityScore": 78,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Wireless packages often include Bluetooth support on notebooks.",
+      "NextAction": "Check VAIO support, then compare Intel Bluetooth packages.",
+      "ProblemGroup": "네트워크 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Bluetooth Driver",
+          "Priority": 1,
+          "Query": "VAIO SX14 Bluetooth Driver"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=USB%5CVID_8087%26PID_0A2B",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the VAIO support page first",
+          "Detail": "Notebook wireless packages are often bundled by the OEM.",
+          "Links": [
+            {
+              "Label": "VAIO 지원 페이지",
+              "Url": "https://us.vaio.com/pages/support",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ProblemDevices": [
+    {
+      "Name": "Unknown Device",
+      "InferredName": "Bluetooth Device",
+      "PNPClass": "Bluetooth",
+      "Category": "블루투스",
+      "Manufacturer": "VAIO",
+      "Service": "",
+      "DeviceID": "USB\\VID_8087&PID_0A2B",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "USB\\VID_8087&PID_0A2B"
+      ],
+      "PrimaryHardwareId": "USB\\VID_8087&PID_0A2B",
+      "IdAnalysis": {
+        "BusType": "USB",
+        "VendorId": "8087",
+        "DeviceId": "0A2B",
+        "SubsystemId": "",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "USB Device ID 0A2B",
+      "DeviceInferenceSource": "Matched Bluetooth USB pattern",
+      "PriorityScore": 78,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Wireless packages often include Bluetooth support on notebooks.",
+      "NextAction": "Check VAIO support, then compare Intel Bluetooth packages.",
+      "ProblemGroup": "네트워크 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Bluetooth Driver",
+          "Priority": 1,
+          "Query": "VAIO SX14 Bluetooth Driver"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=USB%5CVID_8087%26PID_0A2B",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the VAIO support page first",
+          "Detail": "Notebook wireless packages are often bundled by the OEM.",
+          "Links": [
+            {
+              "Label": "VAIO 지원 페이지",
+              "Url": "https://us.vaio.com/pages/support",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

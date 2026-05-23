@@ -1,0 +1,244 @@
+{
+  "SchemaVersion": 4,
+  "GeneratedAt": "2026-04-11T22:40:00",
+  "LogPath": "logs/driver-scan-xiaomi-sample.log",
+  "AutoOpenSupport": false,
+  "AutoOpenCatalog": false,
+  "IsPreflight": false,
+  "Preflight": {
+    "IsAdministrator": true,
+    "CanAccessCim": true,
+    "CanWriteReportDirectory": true,
+    "MainScriptExists": true,
+    "GuiScriptExists": true,
+    "ScriptsDirectoryExists": true,
+    "ReportDirectory": "reports",
+    "ScriptsDirectory": "scripts",
+    "ReportDirectoryMessage": "Report directory is writable.",
+    "CimMessage": "CIM access is available.",
+    "Message": "Ready to run full scan."
+  },
+  "ComputerProfile": {
+    "Manufacturer": "Xiaomi / Redmi",
+    "Model": "RedmiBook Pro 14",
+    "SystemFamily": "Notebook",
+    "BIOSVersion": "XMAKB5R0P0A0",
+    "SerialNumber": "XIAOMI123",
+    "BoardProduct": "RedmiBook14",
+    "OperatingSystem": "Microsoft Windows 11 Home",
+    "OSArchitecture": "64-bit",
+    "DriverTargetOS": "Windows 11 64-bit",
+    "ManufacturerIds": {
+      "ServiceTag": "",
+      "MTM": "",
+      "ProductNumber": "",
+      "SystemSKU": "RedmiBook14",
+      "ProductVersion": "RedmiBook Pro 14"
+    }
+  },
+  "SupportResources": [
+    {
+      "Label": "Xiaomi 지원 페이지",
+      "Url": "https://www.mi.com/global/support/",
+      "Kind": "support"
+    }
+  ],
+  "PrimarySupportLink": {
+    "Label": "Xiaomi 지원 페이지",
+    "Url": "https://www.mi.com/global/support/",
+    "Kind": "support"
+  },
+  "Summary": {
+    "ProblemCount": 1,
+    "TopPriority": {
+      "Name": "Unknown Device",
+      "InferredName": "Realtek PCIe Card Reader",
+      "PNPClass": "System",
+      "Category": "카드리더",
+      "Manufacturer": "Xiaomi / Redmi",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_10EC&DEV_522A",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_10EC&DEV_522A&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_10EC&DEV_522A&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "10EC",
+        "DeviceId": "522A",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Realtek",
+      "VendorInferenceSource": "PCI Device ID 522A",
+      "DeviceInferenceSource": "Matched PCI card reader pattern",
+      "PriorityScore": 62,
+      "PriorityLevel": "보통",
+      "PriorityReason": "Card readers are secondary but still useful after the chipset stack is restored.",
+      "NextAction": "Check Xiaomi support first, then compare with Realtek card reader packages.",
+      "ProblemGroup": "스토리지 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Card Reader Driver",
+          "Priority": 1,
+          "Query": "RedmiBook Pro 14 card reader driver"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_10EC%26DEV_522A",
+      "ComponentLinks": [
+        {
+          "Label": "Realtek Downloads",
+          "Url": "https://www.realtek.com/"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the Xiaomi support page first",
+          "Detail": "Use OEM packages first when they exist, then compare component-vendor packages.",
+          "Links": [
+            {
+              "Label": "Xiaomi 지원 페이지",
+              "Url": "https://www.mi.com/global/support/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "TopProblems": [],
+    "ProblemGroups": [],
+    "InstallOrder": [
+      "카드리더"
+    ],
+    "BeginnerTips": [
+      "Restore chipset and storage-related drivers before optional utilities."
+    ],
+    "HealthyDevices": 10
+  },
+  "AllDevices": [
+    {
+      "Name": "Unknown Device",
+      "InferredName": "Realtek PCIe Card Reader",
+      "PNPClass": "System",
+      "Category": "카드리더",
+      "Manufacturer": "Xiaomi / Redmi",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_10EC&DEV_522A",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_10EC&DEV_522A&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_10EC&DEV_522A&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "10EC",
+        "DeviceId": "522A",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Realtek",
+      "VendorInferenceSource": "PCI Device ID 522A",
+      "DeviceInferenceSource": "Matched PCI card reader pattern",
+      "PriorityScore": 62,
+      "PriorityLevel": "보통",
+      "PriorityReason": "Card readers are secondary but still useful after the chipset stack is restored.",
+      "NextAction": "Check Xiaomi support first, then compare with Realtek card reader packages.",
+      "ProblemGroup": "스토리지 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Card Reader Driver",
+          "Priority": 1,
+          "Query": "RedmiBook Pro 14 card reader driver"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_10EC%26DEV_522A",
+      "ComponentLinks": [
+        {
+          "Label": "Realtek Downloads",
+          "Url": "https://www.realtek.com/"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the Xiaomi support page first",
+          "Detail": "Use OEM packages first when they exist, then compare component-vendor packages.",
+          "Links": [
+            {
+              "Label": "Xiaomi 지원 페이지",
+              "Url": "https://www.mi.com/global/support/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ProblemDevices": [
+    {
+      "Name": "Unknown Device",
+      "InferredName": "Realtek PCIe Card Reader",
+      "PNPClass": "System",
+      "Category": "카드리더",
+      "Manufacturer": "Xiaomi / Redmi",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_10EC&DEV_522A",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_10EC&DEV_522A&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_10EC&DEV_522A&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "10EC",
+        "DeviceId": "522A",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Realtek",
+      "VendorInferenceSource": "PCI Device ID 522A",
+      "DeviceInferenceSource": "Matched PCI card reader pattern",
+      "PriorityScore": 62,
+      "PriorityLevel": "보통",
+      "PriorityReason": "Card readers are secondary but still useful after the chipset stack is restored.",
+      "NextAction": "Check Xiaomi support first, then compare with Realtek card reader packages.",
+      "ProblemGroup": "스토리지 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Card Reader Driver",
+          "Priority": 1,
+          "Query": "RedmiBook Pro 14 card reader driver"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_10EC%26DEV_522A",
+      "ComponentLinks": [
+        {
+          "Label": "Realtek Downloads",
+          "Url": "https://www.realtek.com/"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the Xiaomi support page first",
+          "Detail": "Use OEM packages first when they exist, then compare component-vendor packages.",
+          "Links": [
+            {
+              "Label": "Xiaomi 지원 페이지",
+              "Url": "https://www.mi.com/global/support/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

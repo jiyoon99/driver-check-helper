@@ -1,0 +1,8 @@
+대표 Hardware ID
+USB\VID_8087&PID_0A2A
+
+버스 종류: USB
+Vendor ID: 8087
+Device ID: 0A2A
+Subsystem ID: 없음
+Revision: 없음

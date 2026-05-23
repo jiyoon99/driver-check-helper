@@ -1,0 +1,249 @@
+{
+  "SchemaVersion": 4,
+  "GeneratedAt": "2026-04-11T22:20:00",
+  "LogPath": "logs/driver-scan-razer-sample.log",
+  "AutoOpenSupport": false,
+  "AutoOpenCatalog": false,
+  "IsPreflight": false,
+  "Preflight": {
+    "IsAdministrator": true,
+    "CanAccessCim": true,
+    "CanWriteReportDirectory": true,
+    "MainScriptExists": true,
+    "GuiScriptExists": true,
+    "ScriptsDirectoryExists": true,
+    "ReportDirectory": "reports",
+    "ScriptsDirectory": "scripts",
+    "ReportDirectoryMessage": "Report directory is writable.",
+    "CimMessage": "CIM access is available.",
+    "Message": "Ready to run full scan."
+  },
+  "ComputerProfile": {
+    "Manufacturer": "Razer",
+    "Model": "Blade 15",
+    "SystemFamily": "Notebook",
+    "BIOSVersion": "2.03",
+    "SerialNumber": "RAZER123",
+    "BoardProduct": "Blade15",
+    "OperatingSystem": "Microsoft Windows 11 Pro",
+    "OSArchitecture": "64-bit",
+    "DriverTargetOS": "Windows 11 64-bit",
+    "ManufacturerIds": {
+      "ServiceTag": "",
+      "MTM": "",
+      "ProductNumber": "",
+      "SystemSKU": "Blade15",
+      "ProductVersion": "Blade 15"
+    }
+  },
+  "SupportResources": [
+    {
+      "Label": "Razer 지원 페이지",
+      "Url": "https://mysupport.razer.com/",
+      "Kind": "support"
+    }
+  ],
+  "PrimarySupportLink": {
+    "Label": "Razer 지원 페이지",
+    "Url": "https://mysupport.razer.com/",
+    "Kind": "support"
+  },
+  "Summary": {
+    "ProblemCount": 1,
+    "TopPriority": {
+      "Name": "Video Controller",
+      "InferredName": "NVIDIA Graphics Adapter",
+      "PNPClass": "Display",
+      "Category": "그래픽",
+      "Manufacturer": "Razer",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_10DE&DEV_25A2",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_10DE&DEV_25A2&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_10DE&DEV_25A2&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "10DE",
+        "DeviceId": "25A2",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "NVIDIA",
+      "VendorInferenceSource": "PCI Vendor ID 10DE",
+      "DeviceInferenceSource": "Device name contained Video Controller",
+      "PriorityScore": 90,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Graphics drivers affect display resolution and GPU acceleration.",
+      "NextAction": "Check the Razer support page, then compare with NVIDIA graphics packages.",
+      "ProblemGroup": "그래픽 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Razer Graphics Driver",
+          "Priority": 1,
+          "Query": "Razer Blade 15 graphics driver"
+        },
+        {
+          "Name": "NVIDIA Graphics Driver",
+          "Priority": 2,
+          "Query": "NVIDIA graphics driver Blade 15"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_10DE%26DEV_25A2",
+      "ComponentLinks": [
+        {
+          "Label": "NVIDIA Driver Downloads",
+          "Url": "https://www.nvidia.com/Download/index.aspx"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the Razer support page first",
+          "Detail": "For notebook GPUs, the OEM page should be checked before generic packages.",
+          "Links": [
+            {
+              "Label": "Razer 지원 페이지",
+              "Url": "https://mysupport.razer.com/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "TopProblems": [],
+    "ProblemGroups": [],
+    "InstallOrder": [
+      "그래픽"
+    ],
+    "BeginnerTips": [
+      "Notebook GPU drivers should be compared between OEM and GPU vendor sources."
+    ],
+    "HealthyDevices": 14
+  },
+  "AllDevices": [
+    {
+      "Name": "Video Controller",
+      "InferredName": "NVIDIA Graphics Adapter",
+      "PNPClass": "Display",
+      "Category": "그래픽",
+      "Manufacturer": "Razer",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_10DE&DEV_25A2",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_10DE&DEV_25A2&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_10DE&DEV_25A2&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "10DE",
+        "DeviceId": "25A2",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "NVIDIA",
+      "VendorInferenceSource": "PCI Vendor ID 10DE",
+      "DeviceInferenceSource": "Device name contained Video Controller",
+      "PriorityScore": 90,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Graphics drivers affect display resolution and GPU acceleration.",
+      "NextAction": "Check the Razer support page, then compare with NVIDIA graphics packages.",
+      "ProblemGroup": "그래픽 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Razer Graphics Driver",
+          "Priority": 1,
+          "Query": "Razer Blade 15 graphics driver"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_10DE%26DEV_25A2",
+      "ComponentLinks": [
+        {
+          "Label": "NVIDIA Driver Downloads",
+          "Url": "https://www.nvidia.com/Download/index.aspx"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the Razer support page first",
+          "Detail": "For notebook GPUs, the OEM page should be checked before generic packages.",
+          "Links": [
+            {
+              "Label": "Razer 지원 페이지",
+              "Url": "https://mysupport.razer.com/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ProblemDevices": [
+    {
+      "Name": "Video Controller",
+      "InferredName": "NVIDIA Graphics Adapter",
+      "PNPClass": "Display",
+      "Category": "그래픽",
+      "Manufacturer": "Razer",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_10DE&DEV_25A2",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_10DE&DEV_25A2&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_10DE&DEV_25A2&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "10DE",
+        "DeviceId": "25A2",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "NVIDIA",
+      "VendorInferenceSource": "PCI Vendor ID 10DE",
+      "DeviceInferenceSource": "Device name contained Video Controller",
+      "PriorityScore": 90,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Graphics drivers affect display resolution and GPU acceleration.",
+      "NextAction": "Check the Razer support page, then compare with NVIDIA graphics packages.",
+      "ProblemGroup": "그래픽 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Razer Graphics Driver",
+          "Priority": 1,
+          "Query": "Razer Blade 15 graphics driver"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_10DE%26DEV_25A2",
+      "ComponentLinks": [
+        {
+          "Label": "NVIDIA Driver Downloads",
+          "Url": "https://www.nvidia.com/Download/index.aspx"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the Razer support page first",
+          "Detail": "For notebook GPUs, the OEM page should be checked before generic packages.",
+          "Links": [
+            {
+              "Label": "Razer 지원 페이지",
+              "Url": "https://mysupport.razer.com/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "SchemaVersion": 4,
+  "GeneratedAt": "2026-04-11T22:15:00",
+  "LogPath": "logs/driver-scan-lg-sample.log",
+  "AutoOpenSupport": false,
+  "AutoOpenCatalog": false,
+  "IsPreflight": false,
+  "Preflight": {
+    "IsAdministrator": true,
+    "CanAccessCim": true,
+    "CanWriteReportDirectory": true,
+    "MainScriptExists": true,
+    "GuiScriptExists": true,
+    "ScriptsDirectoryExists": true,
+    "ReportDirectory": "reports",
+    "ScriptsDirectory": "scripts",
+    "ReportDirectoryMessage": "Report directory is writable.",
+    "CimMessage": "CIM access is available.",
+    "Message": "Ready to run full scan."
+  },
+  "ComputerProfile": {
+    "Manufacturer": "LG",
+    "Model": "16U70R-GA56K",
+    "SystemFamily": "LG gram",
+    "BIOSVersion": "R1.09",
+    "SerialNumber": "LGGRAM123",
+    "BoardProduct": "16U70R",
+    "OperatingSystem": "Microsoft Windows 11 Home",
+    "OSArchitecture": "64-bit",
+    "DriverTargetOS": "Windows 11 64-bit",
+    "ManufacturerIds": {
+      "ServiceTag": "",
+      "MTM": "",
+      "ProductNumber": "",
+      "SystemSKU": "16U70R",
+      "ProductVersion": "gram"
+    }
+  },
+  "SupportResources": [
+    {
+      "Label": "LG 지원 페이지",
+      "Url": "https://www.lge.co.kr/support",
+      "Kind": "support"
+    }
+  ],
+  "PrimarySupportLink": {
+    "Label": "LG 지원 페이지",
+    "Url": "https://www.lge.co.kr/support",
+    "Kind": "support"
+  },
+  "Summary": {
+    "ProblemCount": 1,
+    "TopPriority": {
+      "Name": "SM Bus Controller",
+      "InferredName": "Intel Chipset Device",
+      "PNPClass": "System",
+      "Category": "칩셋/시스템",
+      "Manufacturer": "LG",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_8086&DEV_51A3",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_8086&DEV_51A3&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_8086&DEV_51A3&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "8086",
+        "DeviceId": "51A3",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "PCI Vendor ID 8086",
+      "DeviceInferenceSource": "Device name contained SMBus Controller",
+      "PriorityScore": 88,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Platform drivers should be restored before optional devices.",
+      "NextAction": "Install the LG chipset package first.",
+      "ProblemGroup": "칩셋/시스템 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "LG Chipset Driver",
+          "Priority": 1,
+          "Query": "LG gram chipset driver 16U70R"
+        },
+        {
+          "Name": "Intel Chipset Driver",
+          "Priority": 2,
+          "Query": "Intel chipset driver 16U70R"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_8086%26DEV_51A3",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the LG support page first",
+          "Detail": "LG gram models usually work best with the OEM support package first.",
+          "Links": [
+            {
+              "Label": "LG 지원 페이지",
+              "Url": "https://www.lge.co.kr/support",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "TopProblems": [],
+    "ProblemGroups": [],
+    "InstallOrder": [
+      "칩셋/시스템"
+    ],
+    "BeginnerTips": [
+      "Install chipset-related packages before touchpad or utility software."
+    ],
+    "HealthyDevices": 11
+  },
+  "AllDevices": [
+    {
+      "Name": "SM Bus Controller",
+      "InferredName": "Intel Chipset Device",
+      "PNPClass": "System",
+      "Category": "칩셋/시스템",
+      "Manufacturer": "LG",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_8086&DEV_51A3",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_8086&DEV_51A3&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_8086&DEV_51A3&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "8086",
+        "DeviceId": "51A3",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "PCI Vendor ID 8086",
+      "DeviceInferenceSource": "Device name contained SMBus Controller",
+      "PriorityScore": 88,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Platform drivers should be restored before optional devices.",
+      "NextAction": "Install the LG chipset package first.",
+      "ProblemGroup": "칩셋/시스템 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "LG Chipset Driver",
+          "Priority": 1,
+          "Query": "LG gram chipset driver 16U70R"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_8086%26DEV_51A3",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the LG support page first",
+          "Detail": "LG gram models usually work best with the OEM support package first.",
+          "Links": [
+            {
+              "Label": "LG 지원 페이지",
+              "Url": "https://www.lge.co.kr/support",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ProblemDevices": [
+    {
+      "Name": "SM Bus Controller",
+      "InferredName": "Intel Chipset Device",
+      "PNPClass": "System",
+      "Category": "칩셋/시스템",
+      "Manufacturer": "LG",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_8086&DEV_51A3",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_8086&DEV_51A3&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_8086&DEV_51A3&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "8086",
+        "DeviceId": "51A3",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "PCI Vendor ID 8086",
+      "DeviceInferenceSource": "Device name contained SMBus Controller",
+      "PriorityScore": 88,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Platform drivers should be restored before optional devices.",
+      "NextAction": "Install the LG chipset package first.",
+      "ProblemGroup": "칩셋/시스템 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "LG Chipset Driver",
+          "Priority": 1,
+          "Query": "LG gram chipset driver 16U70R"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_8086%26DEV_51A3",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the LG support page first",
+          "Detail": "LG gram models usually work best with the OEM support package first.",
+          "Links": [
+            {
+              "Label": "LG 지원 페이지",
+              "Url": "https://www.lge.co.kr/support",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

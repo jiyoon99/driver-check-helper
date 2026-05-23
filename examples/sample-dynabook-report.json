@@ -1,0 +1,244 @@
+{
+  "SchemaVersion": 4,
+  "GeneratedAt": "2026-04-11T22:30:00",
+  "LogPath": "logs/driver-scan-dynabook-sample.log",
+  "AutoOpenSupport": false,
+  "AutoOpenCatalog": false,
+  "IsPreflight": false,
+  "Preflight": {
+    "IsAdministrator": true,
+    "CanAccessCim": true,
+    "CanWriteReportDirectory": true,
+    "MainScriptExists": true,
+    "GuiScriptExists": true,
+    "ScriptsDirectoryExists": true,
+    "ReportDirectory": "reports",
+    "ScriptsDirectory": "scripts",
+    "ReportDirectoryMessage": "Report directory is writable.",
+    "CimMessage": "CIM access is available.",
+    "Message": "Ready to run full scan."
+  },
+  "ComputerProfile": {
+    "Manufacturer": "Dynabook / Toshiba",
+    "Model": "Portégé X30",
+    "SystemFamily": "Notebook",
+    "BIOSVersion": "3.20",
+    "SerialNumber": "DYNABOOK123",
+    "BoardProduct": "PortegeX30",
+    "OperatingSystem": "Microsoft Windows 11 Pro",
+    "OSArchitecture": "64-bit",
+    "DriverTargetOS": "Windows 11 64-bit",
+    "ManufacturerIds": {
+      "ServiceTag": "",
+      "MTM": "",
+      "ProductNumber": "",
+      "SystemSKU": "PortegeX30",
+      "ProductVersion": "Portégé X30"
+    }
+  },
+  "SupportResources": [
+    {
+      "Label": "Dynabook 지원 페이지",
+      "Url": "https://support.dynabook.com/",
+      "Kind": "support"
+    }
+  ],
+  "PrimarySupportLink": {
+    "Label": "Dynabook 지원 페이지",
+    "Url": "https://support.dynabook.com/",
+    "Kind": "support"
+  },
+  "Summary": {
+    "ProblemCount": 1,
+    "TopPriority": {
+      "Name": "Unknown Device",
+      "InferredName": "Bluetooth Device",
+      "PNPClass": "Bluetooth",
+      "Category": "블루투스",
+      "Manufacturer": "Dynabook / Toshiba",
+      "Service": "",
+      "DeviceID": "USB\\VID_8087&PID_0A2A",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "USB\\VID_8087&PID_0A2A"
+      ],
+      "PrimaryHardwareId": "USB\\VID_8087&PID_0A2A",
+      "IdAnalysis": {
+        "BusType": "USB",
+        "VendorId": "8087",
+        "DeviceId": "0A2A",
+        "SubsystemId": "",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "USB Device ID 0A2A",
+      "DeviceInferenceSource": "Matched Bluetooth USB pattern",
+      "PriorityScore": 80,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Bluetooth often depends on the platform wireless package.",
+      "NextAction": "Check Dynabook support first, then compare Intel wireless packages.",
+      "ProblemGroup": "네트워크 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Bluetooth Driver",
+          "Priority": 1,
+          "Query": "Dynabook Bluetooth Driver Portégé X30"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=USB%5CVID_8087%26PID_0A2A",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check Dynabook support first",
+          "Detail": "Wireless and Bluetooth packages often come as an OEM bundle.",
+          "Links": [
+            {
+              "Label": "Dynabook 지원 페이지",
+              "Url": "https://support.dynabook.com/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "TopProblems": [],
+    "ProblemGroups": [],
+    "InstallOrder": [
+      "블루투스"
+    ],
+    "BeginnerTips": [
+      "If Wi-Fi and Bluetooth are both missing, install the OEM wireless package first."
+    ],
+    "HealthyDevices": 12
+  },
+  "AllDevices": [
+    {
+      "Name": "Unknown Device",
+      "InferredName": "Bluetooth Device",
+      "PNPClass": "Bluetooth",
+      "Category": "블루투스",
+      "Manufacturer": "Dynabook / Toshiba",
+      "Service": "",
+      "DeviceID": "USB\\VID_8087&PID_0A2A",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "USB\\VID_8087&PID_0A2A"
+      ],
+      "PrimaryHardwareId": "USB\\VID_8087&PID_0A2A",
+      "IdAnalysis": {
+        "BusType": "USB",
+        "VendorId": "8087",
+        "DeviceId": "0A2A",
+        "SubsystemId": "",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "USB Device ID 0A2A",
+      "DeviceInferenceSource": "Matched Bluetooth USB pattern",
+      "PriorityScore": 80,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Bluetooth often depends on the platform wireless package.",
+      "NextAction": "Check Dynabook support first, then compare Intel wireless packages.",
+      "ProblemGroup": "네트워크 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Bluetooth Driver",
+          "Priority": 1,
+          "Query": "Dynabook Bluetooth Driver Portégé X30"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=USB%5CVID_8087%26PID_0A2A",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check Dynabook support first",
+          "Detail": "Wireless and Bluetooth packages often come as an OEM bundle.",
+          "Links": [
+            {
+              "Label": "Dynabook 지원 페이지",
+              "Url": "https://support.dynabook.com/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ProblemDevices": [
+    {
+      "Name": "Unknown Device",
+      "InferredName": "Bluetooth Device",
+      "PNPClass": "Bluetooth",
+      "Category": "블루투스",
+      "Manufacturer": "Dynabook / Toshiba",
+      "Service": "",
+      "DeviceID": "USB\\VID_8087&PID_0A2A",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "USB\\VID_8087&PID_0A2A"
+      ],
+      "PrimaryHardwareId": "USB\\VID_8087&PID_0A2A",
+      "IdAnalysis": {
+        "BusType": "USB",
+        "VendorId": "8087",
+        "DeviceId": "0A2A",
+        "SubsystemId": "",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "USB Device ID 0A2A",
+      "DeviceInferenceSource": "Matched Bluetooth USB pattern",
+      "PriorityScore": 80,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Bluetooth often depends on the platform wireless package.",
+      "NextAction": "Check Dynabook support first, then compare Intel wireless packages.",
+      "ProblemGroup": "네트워크 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Bluetooth Driver",
+          "Priority": 1,
+          "Query": "Dynabook Bluetooth Driver Portégé X30"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=USB%5CVID_8087%26PID_0A2A",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check Dynabook support first",
+          "Detail": "Wireless and Bluetooth packages often come as an OEM bundle.",
+          "Links": [
+            {
+              "Label": "Dynabook 지원 페이지",
+              "Url": "https://support.dynabook.com/",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

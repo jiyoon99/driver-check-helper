@@ -1,0 +1,22 @@
+즉시 권장
+- 우선순위: High / 83
+- 먼저 할 일: Install the wireless package first.
+- 가장 유력한 다운로드 후보: Bluetooth Driver
+- 권장 검색어: Intel Bluetooth Driver Bluetooth Device
+
+문제 장치 묶음
+- Network Group
+
+우선 이유
+- Connectivity is blocked.
+
+다음 행동
+- Install the wireless package first.
+
+우선 다운로드 후보
+1. Bluetooth Driver
+2. Wireless Combo Package
+
+추천 안내
+1. Model support
+   Use the vendor support page.

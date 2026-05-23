@@ -1,0 +1,244 @@
+{
+  "SchemaVersion": 4,
+  "GeneratedAt": "2026-04-11T22:25:00",
+  "LogPath": "logs/driver-scan-gigabyte-sample.log",
+  "AutoOpenSupport": false,
+  "AutoOpenCatalog": false,
+  "IsPreflight": false,
+  "Preflight": {
+    "IsAdministrator": true,
+    "CanAccessCim": true,
+    "CanWriteReportDirectory": true,
+    "MainScriptExists": true,
+    "GuiScriptExists": true,
+    "ScriptsDirectoryExists": true,
+    "ReportDirectory": "reports",
+    "ScriptsDirectory": "scripts",
+    "ReportDirectoryMessage": "Report directory is writable.",
+    "CimMessage": "CIM access is available.",
+    "Message": "Ready to run full scan."
+  },
+  "ComputerProfile": {
+    "Manufacturer": "Gigabyte / AORUS",
+    "Model": "AORUS 15",
+    "SystemFamily": "Notebook",
+    "BIOSVersion": "FB09",
+    "SerialNumber": "GIGA123",
+    "BoardProduct": "AORUS15",
+    "OperatingSystem": "Microsoft Windows 11 Pro",
+    "OSArchitecture": "64-bit",
+    "DriverTargetOS": "Windows 11 64-bit",
+    "ManufacturerIds": {
+      "ServiceTag": "",
+      "MTM": "",
+      "ProductNumber": "",
+      "SystemSKU": "AORUS15",
+      "ProductVersion": "AORUS 15"
+    }
+  },
+  "SupportResources": [
+    {
+      "Label": "GIGABYTE 지원 페이지",
+      "Url": "https://www.gigabyte.com/Support",
+      "Kind": "support"
+    }
+  ],
+  "PrimarySupportLink": {
+    "Label": "GIGABYTE 지원 페이지",
+    "Url": "https://www.gigabyte.com/Support",
+    "Kind": "support"
+  },
+  "Summary": {
+    "ProblemCount": 1,
+    "TopPriority": {
+      "Name": "PCI Device",
+      "InferredName": "Intel Management Engine Interface",
+      "PNPClass": "System",
+      "Category": "칩셋/시스템",
+      "Manufacturer": "Gigabyte / AORUS",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_8086&DEV_9D3A",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_8086&DEV_9D3A&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_8086&DEV_9D3A&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "8086",
+        "DeviceId": "9D3A",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "PCI Device ID 9D3A",
+      "DeviceInferenceSource": "Matched PCI Management Engine pattern",
+      "PriorityScore": 84,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Platform interface drivers should be restored early.",
+      "NextAction": "Check the GIGABYTE support page for chipset packages.",
+      "ProblemGroup": "칩셋/시스템 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Intel Management Engine Driver",
+          "Priority": 1,
+          "Query": "Intel Management Engine Driver AORUS 15"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_8086%26DEV_9D3A",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the GIGABYTE support page first",
+          "Detail": "Notebook platform packages often depend on OEM tuning.",
+          "Links": [
+            {
+              "Label": "GIGABYTE 지원 페이지",
+              "Url": "https://www.gigabyte.com/Support",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    },
+    "TopProblems": [],
+    "ProblemGroups": [],
+    "InstallOrder": [
+      "칩셋/시스템"
+    ],
+    "BeginnerTips": [
+      "Restore chipset and management engine devices before optional utilities."
+    ],
+    "HealthyDevices": 13
+  },
+  "AllDevices": [
+    {
+      "Name": "PCI Device",
+      "InferredName": "Intel Management Engine Interface",
+      "PNPClass": "System",
+      "Category": "칩셋/시스템",
+      "Manufacturer": "Gigabyte / AORUS",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_8086&DEV_9D3A",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_8086&DEV_9D3A&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_8086&DEV_9D3A&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "8086",
+        "DeviceId": "9D3A",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "PCI Device ID 9D3A",
+      "DeviceInferenceSource": "Matched PCI Management Engine pattern",
+      "PriorityScore": 84,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Platform interface drivers should be restored early.",
+      "NextAction": "Check the GIGABYTE support page for chipset packages.",
+      "ProblemGroup": "칩셋/시스템 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Intel Management Engine Driver",
+          "Priority": 1,
+          "Query": "Intel Management Engine Driver AORUS 15"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_8086%26DEV_9D3A",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the GIGABYTE support page first",
+          "Detail": "Notebook platform packages often depend on OEM tuning.",
+          "Links": [
+            {
+              "Label": "GIGABYTE 지원 페이지",
+              "Url": "https://www.gigabyte.com/Support",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ProblemDevices": [
+    {
+      "Name": "PCI Device",
+      "InferredName": "Intel Management Engine Interface",
+      "PNPClass": "System",
+      "Category": "칩셋/시스템",
+      "Manufacturer": "Gigabyte / AORUS",
+      "Service": "",
+      "DeviceID": "PCI\\VEN_8086&DEV_9D3A",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 28,
+      "IsProblemDevice": true,
+      "HardwareIds": [
+        "PCI\\VEN_8086&DEV_9D3A&SUBSYS_00000000"
+      ],
+      "PrimaryHardwareId": "PCI\\VEN_8086&DEV_9D3A&SUBSYS_00000000",
+      "IdAnalysis": {
+        "BusType": "PCI",
+        "VendorId": "8086",
+        "DeviceId": "9D3A",
+        "SubsystemId": "00000000",
+        "Revision": ""
+      },
+      "ComponentVendor": "Intel",
+      "VendorInferenceSource": "PCI Device ID 9D3A",
+      "DeviceInferenceSource": "Matched PCI Management Engine pattern",
+      "PriorityScore": 84,
+      "PriorityLevel": "높음",
+      "PriorityReason": "Platform interface drivers should be restored early.",
+      "NextAction": "Check the GIGABYTE support page for chipset packages.",
+      "ProblemGroup": "칩셋/시스템 계열",
+      "DriverPackageCandidates": [
+        {
+          "Name": "Intel Management Engine Driver",
+          "Priority": 1,
+          "Query": "Intel Management Engine Driver AORUS 15"
+        }
+      ],
+      "UpdateCatalogUrl": "https://www.catalog.update.microsoft.com/Search.aspx?q=PCI%5CVEN_8086%26DEV_9D3A",
+      "ComponentLinks": [
+        {
+          "Label": "Intel Download Center",
+          "Url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+        }
+      ],
+      "Recommendations": [
+        {
+          "Priority": 1,
+          "Title": "Check the GIGABYTE support page first",
+          "Detail": "Notebook platform packages often depend on OEM tuning.",
+          "Links": [
+            {
+              "Label": "GIGABYTE 지원 페이지",
+              "Url": "https://www.gigabyte.com/Support",
+              "Kind": "support"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

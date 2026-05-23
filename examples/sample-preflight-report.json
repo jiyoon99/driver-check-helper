@@ -1,0 +1,44 @@
+{
+  "SchemaVersion": 4,
+  "GeneratedAt": "2026-04-11T21:35:00",
+  "LogPath": "logs/driver-scan-preflight-sample.log",
+  "AutoOpenSupport": false,
+  "AutoOpenCatalog": false,
+  "IsPreflight": true,
+  "Preflight": {
+    "IsAdministrator": false,
+    "CanAccessCim": true,
+    "CanWriteReportDirectory": true,
+    "MainScriptExists": true,
+    "GuiScriptExists": true,
+    "ScriptsDirectoryExists": true,
+    "ReportDirectory": "reports",
+    "ScriptsDirectory": "scripts",
+    "ReportDirectoryMessage": "리포트 폴더에 쓸 수 있습니다.",
+    "CimMessage": "CIM/WMI 조회가 가능합니다.",
+    "Message": "관리자 권한이 없어 전체 장치 검사를 실행할 수 없습니다. 사전 점검 결과만 제공합니다."
+  },
+  "ComputerProfile": {
+    "Manufacturer": "",
+    "Model": "",
+    "SystemFamily": "",
+    "BIOSVersion": "",
+    "SerialNumber": "",
+    "BoardProduct": "",
+    "OperatingSystem": "",
+    "OSArchitecture": "",
+    "DriverTargetOS": "",
+    "ManufacturerIds": {
+      "ServiceTag": "",
+      "MTM": "",
+      "ProductNumber": "",
+      "SystemSKU": "",
+      "ProductVersion": ""
+    }
+  },
+  "SupportResources": [],
+  "PrimarySupportLink": null,
+  "Summary": null,
+  "AllDevices": [],
+  "ProblemDevices": []
+}
