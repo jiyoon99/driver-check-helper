@@ -26,6 +26,12 @@ Windows 노트북이나 PC의 장치 상태를 점검하고, 필요한 드라이
 - 제조사별 지원 페이지 매핑과 장치 분류 규칙 분리
 - Pester 기반 PowerShell 테스트와 GitHub Actions workflow 포함
 
+## Preview
+
+![Driver Check Helper GUI preview](docs/assets/driver-check-helper-preview.svg)
+
+> 공개 저장소용 샘플 화면입니다. 실제 장비명, 시리얼, Hardware ID, 리포트 로그는 포함하지 않았습니다.
+
 ## Why I Built This
 
 Windows 장비를 점검할 때는 장치 관리자에서 문제 장치를 찾고, 장치 이름과 Hardware ID를 복사한 뒤, 제조사 페이지나 Microsoft Update Catalog에서 드라이버를 검색해야 합니다.

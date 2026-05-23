@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Driver Check Helper GUI preview">
+  <rect width="1280" height="720" fill="#eff4fa"/>
+  <rect x="20" y="18" width="1120" height="154" fill="#153052" stroke="#9fb4cc"/>
+  <rect x="20" y="18" width="1120" height="6" fill="#3d7ebc"/>
+  <text x="42" y="56" font-family="Malgun Gothic, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">드라이버 점검 도우미</text>
+  <text x="1070" y="42" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" fill="#ffffff" text-anchor="end">마지막 점검: 2026-05-23 14:12</text>
+  <text x="720" y="68" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#bccadc">실행 모드: GUI</text>
+  <text x="1100" y="68" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#bccadc" text-anchor="end">리포트 스키마: v4</text>
+  <rect x="40" y="94" width="742" height="50" fill="#112844" stroke="#4c6d91"/>
+  <text x="54" y="112" font-family="Malgun Gothic, Arial, sans-serif" font-size="11" font-weight="700" fill="#bccadc">OPERATIONS</text>
+  <rect x="54" y="116" width="150" height="32" rx="3" fill="#49a078"/>
+  <text x="129" y="137" font-family="Malgun Gothic, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">점검 시작</text>
+  <rect x="208" y="116" width="180" height="32" rx="3" fill="#ffffff" stroke="#a0b8d6"/>
+  <text x="298" y="137" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" font-weight="700" fill="#364962" text-anchor="middle">공식 지원 도구</text>
+  <rect x="392" y="116" width="170" height="32" rx="3" fill="#ffffff" stroke="#a0b8d6"/>
+  <text x="477" y="137" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" font-weight="700" fill="#364962" text-anchor="middle">모델 드라이버 센터</text>
+  <rect x="566" y="116" width="170" height="32" rx="3" fill="#ffffff" stroke="#a0b8d6"/>
+  <text x="651" y="137" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" font-weight="700" fill="#364962" text-anchor="middle">공식 설명서</text>
+  <text x="720" y="118" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" font-weight="700" fill="#e8f0f8">준비됨</text>
+  <text x="720" y="140" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#bccadc">지원 도구, 드라이버 센터, 설명서 링크를 한 화면에서 확인</text>
+
+  <rect x="20" y="190" width="260" height="108" fill="#ffffff" stroke="#ccd6e2"/>
+  <text x="38" y="218" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#364962">점검 판정</text>
+  <text x="38" y="254" font-family="Malgun Gothic, Arial, sans-serif" font-size="24" font-weight="700" fill="#26734d">발견된 문제 없음</text>
+  <text x="38" y="280" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#67748c">문제 장치가 있으면 우선순위와 검색 링크를 표시</text>
+  <rect x="300" y="190" width="240" height="108" fill="#ffffff" stroke="#ccd6e2"/>
+  <text x="318" y="218" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" font-weight="700" fill="#364962">문제 장치</text>
+  <text x="318" y="264" font-family="Malgun Gothic, Arial, sans-serif" font-size="40" font-weight="700" fill="#153052">0</text>
+  <rect x="560" y="190" width="240" height="108" fill="#ffffff" stroke="#ccd6e2"/>
+  <text x="578" y="218" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" font-weight="700" fill="#364962">점검 모드</text>
+  <text x="578" y="264" font-family="Malgun Gothic, Arial, sans-serif" font-size="32" font-weight="700" fill="#153052">GUI</text>
+  <rect x="820" y="190" width="320" height="108" fill="#ffffff" stroke="#ccd6e2"/>
+  <text x="838" y="218" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" font-weight="700" fill="#364962">우선 대응</text>
+  <text x="838" y="264" font-family="Malgun Gothic, Arial, sans-serif" font-size="28" font-weight="700" fill="#153052">공식 지원 페이지 확인</text>
+
+  <rect x="20" y="318" width="760" height="360" fill="#ffffff" stroke="#ccd6e2"/>
+  <text x="40" y="350" font-family="Malgun Gothic, Arial, sans-serif" font-size="18" font-weight="700" fill="#182438">장치 목록</text>
+  <rect x="40" y="368" width="150" height="28" fill="#f4f7fb" stroke="#ccd6e2"/>
+  <text x="54" y="387" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#364962">검색</text>
+  <rect x="204" y="368" width="120" height="28" fill="#f4f7fb" stroke="#ccd6e2"/>
+  <text x="218" y="387" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#364962">분류: 전체</text>
+  <rect x="338" y="368" width="150" height="28" fill="#f4f7fb" stroke="#ccd6e2"/>
+  <text x="352" y="387" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#364962">문제 장치만 표시</text>
+  <rect x="40" y="416" width="700" height="34" fill="#ecf2f8"/>
+  <text x="58" y="438" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#364962">DeviceName</text>
+  <text x="348" y="438" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#364962">Category</text>
+  <text x="480" y="438" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#364962">Priority</text>
+  <text x="610" y="438" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" font-weight="700" fill="#364962">ErrorCode</text>
+  <g font-family="Malgun Gothic, Arial, sans-serif" font-size="14" fill="#182438">
+    <text x="58" y="480">Intel Wireless Adapter</text><text x="348" y="480">Network</text><text x="480" y="480">Normal</text><text x="610" y="480">0</text>
+    <text x="58" y="522">Realtek Audio Controller</text><text x="348" y="522">Audio</text><text x="480" y="522">Normal</text><text x="610" y="522">0</text>
+    <text x="58" y="564">Unknown PCI Device</text><text x="348" y="564">Chipset</text><text x="480" y="564" fill="#b26b00">High</text><text x="610" y="564" fill="#b26b00">28</text>
+  </g>
+  <rect x="800" y="318" width="340" height="360" fill="#ffffff" stroke="#ccd6e2"/>
+  <text x="820" y="350" font-family="Malgun Gothic, Arial, sans-serif" font-size="18" font-weight="700" fill="#182438">선택 장치 상세</text>
+  <text x="820" y="390" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" font-weight="700" fill="#364962">Hardware ID</text>
+  <text x="820" y="416" font-family="Consolas, monospace" font-size="13" fill="#182438">PCI\VEN_8086&amp;DEV_51F0</text>
+  <text x="820" y="462" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" font-weight="700" fill="#364962">추천 액션</text>
+  <text x="820" y="488" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#182438">제조사 공식 지원 페이지 확인</text>
+  <text x="820" y="512" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#182438">Microsoft Update Catalog 검색</text>
+  <rect x="820" y="548" width="130" height="32" rx="3" fill="#153052"/>
+  <text x="885" y="570" font-family="Malgun Gothic, Arial, sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">검색 링크 열기</text>
+</svg>
