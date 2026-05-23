@@ -4,6 +4,14 @@ Windows 노트북이나 PC의 장치 상태를 점검하고, 필요한 드라이
 
 회사 업무에서 여러 제조사 노트북을 점검할 때 장치 관리자, 제조사 지원 페이지, Microsoft Update Catalog를 반복해서 확인해야 하는 불편함을 줄이기 위해 만들었습니다. 이 도구는 드라이버를 자동 설치하지 않고, 문제 장치와 검색 경로를 빠르게 정리해 주는 진단 보조 프로그램입니다.
 
+## What This Project Shows
+
+- Windows 장치 정보를 수집하고 문제 장치를 분류하는 자동화 설계
+- GUI와 콘솔 실행 경로를 같은 분석 로직으로 유지한 구조
+- 제조사/모델/Hardware ID 기반 드라이버 검색 흐름 자동화
+- 실제 장비 정보가 노출되지 않도록 샘플 리포트와 공개용 문서를 분리한 관리 방식
+- Pester 테스트와 GitHub Actions를 포함한 PowerShell 프로젝트 구성
+
 ## Project Summary
 
 | Item | Description |
@@ -150,12 +158,11 @@ driver-check-helper/
 - 리포트 생성은 `scripts/main.report.functions.ps1`와 `scripts/report.schema.functions.ps1`에서 처리합니다.
 - GUI 동작은 `scripts/gui.*.functions.ps1`로 기능별 분리했습니다.
 
-## What I Learned
+## Engineering Notes
 
-- Windows 장치 정보를 PowerShell에서 수집하고 정규화하는 방식
-- Hardware ID와 제조사/모델 정보를 활용해 드라이버 검색 흐름을 자동화하는 방법
-- GUI와 콘솔 실행 경로를 같은 분석 로직으로 유지하는 구조
-- 실제 업무 도구는 기능뿐 아니라 리포트, 로그, 테스트, 예외 처리가 중요하다는 점
+- 장치 수집, 분석, 리포트, GUI 로직을 스크립트별로 분리했습니다.
+- 드라이버를 직접 설치하지 않고, 공식 지원 페이지와 검색 링크를 제공하는 보조 도구로 범위를 제한했습니다.
+- 실제 운영 로그와 장비 식별 정보는 저장소에 포함하지 않고 `examples/`에 샘플만 남겼습니다.
 
 ## Safety Notes
 
