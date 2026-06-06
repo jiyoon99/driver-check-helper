@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Ensure Pester
-        shell: powershell
+        shell: pwsh
         run: |
           $requiredVersion = "4.10.1"
           $module = Get-Module -ListAvailable Pester |
@@ -27,6 +27,5 @@ jobs:
           }
 
       - name: Run Pester tests
-        shell: powershell
-        run: |
-          powershell -NoProfile -ExecutionPolicy Bypass -File .\tests\Run-Tests.ps1
+        shell: pwsh
+        run: pwsh -NoProfile -File .\tests\Run-Tests.ps1
