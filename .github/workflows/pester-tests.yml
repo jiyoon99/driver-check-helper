@@ -13,14 +13,17 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Ensure Pester
         shell: powershell
         run: |
-          $module = Get-Module -ListAvailable Pester | Sort-Object Version -Descending | Select-Object -First 1
+          $requiredVersion = "4.10.1"
+          $module = Get-Module -ListAvailable Pester |
+            Where-Object { $_.Version -eq [version]$requiredVersion } |
+            Select-Object -First 1
           if (-not $module) {
-            Install-Module Pester -Force -SkipPublisherCheck -Scope CurrentUser
+            Install-Module Pester -RequiredVersion $requiredVersion -Force -SkipPublisherCheck -Scope CurrentUser
           }
 
       - name: Run Pester tests

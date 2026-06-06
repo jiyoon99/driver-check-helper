@@ -187,7 +187,7 @@ Describe "Load-ReportData" {
         $report = Load-ReportData -PreferredPath (Join-Path $testReportDir "missing.json")
 
         $script:LatestReport | Should Be $validReportPath
-        $report.GeneratedAt | Should Be "2026-04-11T21:00:00"
+        ([datetime]$report.GeneratedAt).ToString("yyyy-MM-ddTHH:mm:ss") | Should Be "2026-04-11T21:00:00"
         $script:LatestReport | Should Be $validReportPath
     }
 
